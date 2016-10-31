@@ -11,6 +11,7 @@
   
   
 关键代码 
+
 LEFT JOIN sys_menu AS sm ON cp.PrivilegeAccessKey = sm.MenuID AND cp.PrivilegeAccess = 'Sys_Menu'
  WHERE ((cp.PrivilegeMaster = 'CF_Role'
      AND cp.PrivilegeMasterKey
