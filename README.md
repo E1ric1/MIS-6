@@ -22,3 +22,4 @@ LEFT JOIN sys_menu AS sm ON cp.PrivilegeAccessKey = sm.MenuID AND cp.PrivilegeAc
      AND cp.PrivilegeMasterKey = (SELECT UserID FROM cf_user WHERE LoginName = 'test1')))
     AND
      cp.PrivilegeOperation = 'Permit' AND cp.PrivilegeAccess = 'Sys_Menu';
+![image](https://cloud.githubusercontent.com/assets/16076963/19844449/e949ce8c-9f67-11e6-9e49-25dd489c8ec1.png)
