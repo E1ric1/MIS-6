@@ -47,4 +47,4 @@ LEFT JOIN sys_menu AS sm ON cp.PrivilegeAccessKey = sm.MenuID AND cp.PrivilegeAc
     AND
      cp.PrivilegeOperation = 'Permit' AND cp.PrivilegeAccess = 'Sys_Button' AND sm.MenuName = '订单';
      
-    ![image](https://cloud.githubusercontent.com/assets/16076963/19844632/94098e06-9f69-11e6-8601-dd7cc082682c.png)
+   
