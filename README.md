@@ -26,7 +26,8 @@ LEFT JOIN sys_menu AS sm ON cp.PrivilegeAccessKey = sm.MenuID AND cp.PrivilegeAc
 
 
 #对订单(order)页面中的操作权限(sys_button)
-##伪代码
+
+伪代码
 根据名称查找人员编号UserID 根据人员编号UserID查找改人员所对应的角色集合RoleIDs
 权限表 LEFT JOIN 按钮表 LEFT JOIN 页面表并查找
    角色类型为CF_Role   AND   角色编号在角色集合RoleIDs中
